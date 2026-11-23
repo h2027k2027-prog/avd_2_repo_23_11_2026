@@ -17,7 +17,7 @@ jobs:
             - name: set up python version
               uses: actions/setup-python@v7
               with:
-                python-version:'3.13'
+                python-version: '3.13'
 
             - name: run python program
               run: python welcome.py
